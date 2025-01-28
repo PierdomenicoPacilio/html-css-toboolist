@@ -8,6 +8,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f6f8f9;
+    position: relative;
 }
 /* /common */
 
@@ -41,6 +42,12 @@ main{
     margin: 40px auto;
 }
 
+.main-1{
+    max-width: 80%;
+    margin: 10px auto;
+    color: #434851;
+}
+
 /* tasti */
 .tasto{
     font-size: small;
@@ -55,7 +62,6 @@ main{
 .tasto-a{
     margin-top: 15px;
     margin-bottom: 10px;
-    margin-left: 50px;
     margin-right: 5px;
     background-color: #14aaf5;
     color: #FFFFFF;
@@ -70,4 +76,7 @@ main{
 hr{
     border: none;
     background-color: #f6f8f9 ;
+    height: 2px;
+    margin-left: -100%;
+    margin-right: -100%;
 }
