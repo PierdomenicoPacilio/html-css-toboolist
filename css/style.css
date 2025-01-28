@@ -10,6 +10,10 @@ body{
     background-color: #f6f8f9;
     position: relative;
 }
+
+.inbl{
+    display: inline-block;
+}
 /* /common */
 
 /* topline */
@@ -22,13 +26,12 @@ header{
 }
 
 .logo{
-    display: inline-block;
+    
     height: 50px;
     width: 50px;   
     
 }
 .titolo{
-    display: inline-block;
     vertical-align: top;
     padding-top: 10px;
     letter-spacing: 1px;
@@ -51,11 +54,10 @@ main{
 /* tasti */
 .tasto{
     font-size: small;
-    display: inline-block;
     width: auto;
     text-align: center;
     line-height: 25px;
-    border-radius: 10%;
+    border-radius: 5px;
     padding: 0 7px;
 }
 
@@ -79,4 +81,48 @@ hr{
     height: 2px;
     margin-left: -100%;
     margin-right: -100%;
+}
+
+h3{
+    padding-top: 30px;
+}
+
+.word{
+    font-weight: 600;
+}
+
+/* spunte */
+.spunta{
+    padding-left: 3px;
+    height: 18px;
+    width: 18px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-top: 15px;
+    font-size: small;
+}
+
+.ok {
+    color:#4ccfb8 ;
+    border-color: #4ccfb8;
+}
+
+.no{
+    color: #ff4343;
+    border-color: #ff4343;
+}
+/* /spunte */
+
+/* tastini colorati */
+.tastino{
+    font-size: smaller;
+    padding: 5px 5px;
+    border-radius: 11px; 
+    margin-left: 10px;
+}
+
+.editorial{
+    background-color: #09a9ed;
+    border: 1px solid #09a9ed;
+    color: #FFFFFF;
 }
