@@ -1,4 +1,4 @@
-/* main */
+/* common */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f6f8f9;
 }
-/* /main */
+/* /common */
 
 /* topline */
 header{
@@ -33,3 +33,41 @@ header{
     letter-spacing: 1px;
 }
 /* /topline */
+
+/* main */
+main{
+    background-color: #FFFFFF;
+    max-width: 70%;
+    margin: 40px auto;
+}
+
+/* tasti */
+.tasto{
+    font-size: small;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10%;
+    padding: 0 7px;
+}
+
+.tasto-a{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 5px;
+    background-color: #14aaf5;
+    color: #FFFFFF;
+}
+
+.tasto-b {
+    color: #c4cbd0;
+    border: 1px solid #c4cbd0;
+}
+/* /tasti */
+
+hr{
+    border: none;
+    background-color: #f6f8f9 ;
+}
