@@ -99,6 +99,7 @@ h3{
     border: 1px solid;
     border-radius: 50%;
     margin-top: 15px;
+    margin-right: 5px;
     font-size: small;
 }
 
@@ -119,10 +120,35 @@ h3{
     padding: 5px 5px;
     border-radius: 11px; 
     margin-left: 10px;
+    color: #FFFFFF;
 }
 
 .editorial{
     background-color: #09a9ed;
     border: 1px solid #09a9ed;
-    color: #FFFFFF;
+}
+
+.goals{
+    background-color: #ab5de6;
+    border: 1px solid #ab5de6;
+}
+
+.recruting{
+    background-color: #2cc6ab;
+    border: 1px solid #2cc6ab;
+}
+
+.mobile{
+    background-color: #ff9b00;
+    border: 1px solid #ff9b00;
+}
+
+.website{
+    background-color: #ec4a9d;
+    border: 1px solid #ec4a9d;
+}
+
+.sales{
+    background-color: #a3d116;
+    border: 1px solid #a3d116;
 }
